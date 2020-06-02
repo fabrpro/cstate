@@ -1,0 +1,148 @@
+# Polish language file for cState
+# Version 4.1
+
+- id: languageCode
+  translation: pl
+- id: languageName
+  translation: Polish
+- id: languageNameShort
+  translation: POL
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Trwa poważna niedostępność
+- id: isDisrupted
+  translation: Trwa niedostępność
+- id: isNotice
+  translation: Przeczytaj ogłoszenia
+- id: isOk
+  translation: Wszystkie systemy działają
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Uh oh! Wygląda, że masz wyłączoną obsługę JavaScript. Proszę
+- id: noScriptingLink
+  translation: włącz JavaScript
+- id: noScriptingOutro
+  translation: aby usprawnić działanie tej strony
+
+- id: thisIsDown
+  translation: Awaria
+- id: thisIsDisrupted
+  translation: Zakłócenia
+- id: thisIsNotice
+  translation: Trwają prace
+- id: thisIsOk
+  translation: Działa
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Ostatnio sprawdzone
+- id: justNow
+  translation: chwilę temu
+- id: someTimeAgo
+  translation: temu
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: lat
+- id: monthsAgo
+  translation: miesięcy
+- id: daysAgo
+  translation: d
+- id: hoursAgo
+  translation: h
+- id: minsAgo
+  translation: min
+- id: secondsAgo
+  translation: s
+
+- id: autoRefreshNotice
+  translation: Będziemy próbować odświeżać co 5s
+
+# Incidents
+- id: incidents
+  translation: Problemy
+- id: incidentHistory
+  translation: Historia problemów
+
+- id: resolved
+  translation: Naprawione # if it's less than a min
+- id: inUnderAMinute
+  translation: niecałą minutę temu # continuing the last string
+- id: resolvedAfter
+  translation: Naprawione po # + 19 min
+- id: ofDowntime
+  translation: awarii
+
+- id: downtimeOngoing
+  translation: Ten problem nie jest jeszcze naprawiony
+
+
+- id: calmBeforeTheStorm
+  translation: Czy to jest cisza przed burzą?
+- id: noIncidentsDesc
+  translation: Ta strona nie zawiera żadnych informacji na temat problemów. Może to być dla tego, że właściciel (lub właściciele) nieddawno stworzyli stronę statusu, nie było żadnych problemów albo nie zanotowali żądnych problemów.
+
+
+- id: continueReading
+  translation: Czytaj więcej
+- id: prev
+  translation: Poprzedni
+- id: next
+  translation: Następny
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Przejdź z powrotem do
+- id: backToTop
+  translation: Przejdź na górę
+- id: poweredBy
+  translation: Stworzone za pomocą
+
+- id: notFound
+  translation: Nic tutaj nie ma
+- id: notFoundText
+  translation: To mógł być problem po Twojej stronie. Być może przenieśliśmy tę treść i teraz jej nie ma. Możliwe też, że treść, któ©ą próbujesz zobaczyć jest pusta. Czy mógłbyś jeszcze ponownie sprawdzić link?
+
+- id: rss
+  translation: Subskrybuj za pomocą RSS
+- id: toAllUpdates
+  translation: wszystkie aktualizacje
+- id: or
+  translation: lub
+- id: onlyThisFeed
+  translation: tylko ten kanał
+
+##
+## v3
+##
+- id: entries
+  translation: wpisy
+- id: newestToOldest
+  translation: od najnowszego
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Wygląda, że albo ten system nie istnieje albo nigdy nie miał problemów.
+
+##
+## v4.1
+## 
+
+- id: averageSystemsDowntime
+  translation: Bazując na średnich danych, ostatnio ten system nie działał przez
+- id: averageSystemsDowntimeSecondPart
+  translation: minut każdego razu.
